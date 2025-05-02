@@ -96,3 +96,11 @@ else:
         st.warning("Please upload an image.")
     if not api_key:
         st.warning("Por favor ingresa tu API key.")
+
+st.markdown("""
+    <style>
+        .stApp {
+            background-color: #6666ff;
+        }
+    </style>
+""", unsafe_allow_html=True)
